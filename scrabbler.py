@@ -72,5 +72,5 @@ def unscrabbeler(cypher:int,path:str) -> str:
             print('Decryption cycpher exceeded text character range')
 
 
-scrabbeler(998,'Power.txt')
+scrabbeler(999,'Power.txt')
 unscrabbeler(999,'hidden.txt')
