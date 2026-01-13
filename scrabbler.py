@@ -1,6 +1,6 @@
 import re
 
-def scrabbeler(cypher:int,path:str) -> str:
+def scrabbler(cypher:int,path:str) -> str:
     '''
     Encrypt text using using cypher
     
@@ -34,7 +34,7 @@ def scrabbeler(cypher:int,path:str) -> str:
             f.write(hidden)
 
 
-def unscrabbeler(cypher:int,path:str) -> str:
+def unscrabbler(cypher:int,path:str) -> str:
     '''
     Encrypt text using using cypher
     
@@ -72,5 +72,5 @@ def unscrabbeler(cypher:int,path:str) -> str:
             print('Decryption cycpher exceeded text character range')
 
 # Example on how to use it
-scrabbeler(999,'Power.txt')
-unscrabbeler(999,'hidden.txt')
+scrabbler(999,'Power.txt')
+unscrabbler(999,'hidden.txt')
